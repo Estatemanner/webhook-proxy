@@ -1,0 +1,8 @@
+{
+  "go.goroot": "/Users/lap13347/.local/share/mise/installs/go/1.24.1",
+  "go.alternateTools": {
+    "go": "/Users/lap13347/.local/share/mise/shims/go",
+    "dlv": "/Users/lap13347/.local/share/mise/shims/dlv",
+    "gopls": "/Users/lap13347/.local/share/mise/shims/gopls"
+  }
+}

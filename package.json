@@ -1,0 +1,40 @@
+{
+  "name": "webhook-proxy",
+  "version": "1.0.0",
+  "description": "Docker Hub to GitHub webhook proxy service for automated deployments",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required for TypeScript functions'",
+    "deploy": "netlify deploy --prod",
+    "test": "echo 'Tests will be added later'",
+    "lint": "echo 'Linting will be added later'"
+  },
+  "keywords": [
+    "webhook",
+    "docker-hub",
+    "github-actions",
+    "netlify-functions",
+    "automation"
+  ],
+  "author": "EstateManner",
+  "license": "MIT",
+  "dependencies": {
+    "@netlify/functions": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Estatemanner/webhook-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Estatemanner/webhook-proxy/issues"
+  },
+  "homepage": "https://github.com/Estatemanner/webhook-proxy#readme"
+}

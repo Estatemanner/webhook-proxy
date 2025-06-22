@@ -1,0 +1,35 @@
+[build]
+  command = "echo 'No build required for TypeScript functions'"
+  functions = "netlify/functions"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+[dev]
+  functions = "netlify/functions"
+  port = 8888
+
+# Security headers for webhook endpoints
+[[headers]]
+  for = "/webhook/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Redirect for API compatibility
+[[redirects]]
+  from = "/api/webhook/docker-hub"
+  to = "/.netlify/functions/docker-webhook"
+  status = 200
+
+# Environment-specific settings
+[context.production]
+  [context.production.environment]
+    NODE_ENV = "production"
+
+[context.deploy-preview]
+  [context.deploy-preview.environment]
+    NODE_ENV = "development"
