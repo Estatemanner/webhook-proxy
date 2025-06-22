@@ -3,7 +3,6 @@
 export interface DockerHubPayload {
   repository: {
     repo_name: string;
-    full_name: string;
     owner: string;
   };
   push_data: {

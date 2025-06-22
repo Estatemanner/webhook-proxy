@@ -5,10 +5,10 @@
 
 // Repository to service name mapping
 const SERVICE_MAP: Record<string, string> = {
-  "est-webapp": "webapp",
-  "est-server": "server",
-  "est-pricing-server": "pricing",
-  "est-landing": "landing",
+  "duylvhz/est-webapp": "webapp",
+  "duylvhz/est-landing": "landing",
+  "duylvhz/est-server": "server",
+  "duylvhz/est-pricing-server": "pricing",
 };
 
 /**
