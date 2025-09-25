@@ -6,6 +6,7 @@ const SUPPORTED_REPOSITORIES = [
   "duylvhz/est-server",
   "duylvhz/est-pricing-server",
   "duylvhz/est-landing",
+  "duylvhz/est-mdp-collector",
 ];
 
 /**
