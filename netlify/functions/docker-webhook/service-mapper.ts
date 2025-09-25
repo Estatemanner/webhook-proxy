@@ -9,6 +9,7 @@ const SERVICE_MAP: Record<string, string> = {
   "duylvhz/est-landing": "landing",
   "duylvhz/est-server": "server",
   "duylvhz/est-pricing-server": "pricing",
+  "duylvhz/est-mdp-collector": "mdp-collector",
 };
 
 /**
