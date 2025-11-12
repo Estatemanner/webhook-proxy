@@ -5,11 +5,11 @@
 
 // Repository to service name mapping
 const SERVICE_MAP: Record<string, string> = {
-  "duylvhz/est-webapp": "webapp",
-  "duylvhz/est-landing": "landing",
-  "duylvhz/est-server": "server",
-  "duylvhz/est-pricing-server": "pricing",
-  "duylvhz/est-mdp-collector": "mdp-collector",
+  "estatemanner/est-webapp": "webapp",
+  "estatemanner/est-landing": "landing",
+  "estatemanner/est-server": "server",
+  "estatemanner/est-pricing-server": "pricing",
+  "estatemanner/est-mdp-collector": "mdp-collector",
 };
 
 /**

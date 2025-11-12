@@ -2,11 +2,11 @@ import type { DockerHubPayload, ValidationResult } from "./types";
 
 // Service mapping configuration for validation
 const SUPPORTED_REPOSITORIES = [
-  "duylvhz/est-webapp",
-  "duylvhz/est-server",
-  "duylvhz/est-pricing-server",
-  "duylvhz/est-landing",
-  "duylvhz/est-mdp-collector",
+  "estatemanner/est-webapp",
+  "estatemanner/est-server",
+  "estatemanner/est-pricing-server",
+  "estatemanner/est-landing",
+  "estatemanner/est-mdp-collector",
 ];
 
 /**
