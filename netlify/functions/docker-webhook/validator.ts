@@ -7,6 +7,7 @@ const SUPPORTED_REPOSITORIES = [
   "estatemanner/est-pricing-server",
   "estatemanner/est-landing",
   "estatemanner/est-mdp-collector",
+  "estatemanner/est-mdp-collector-fe",
 ];
 
 /**

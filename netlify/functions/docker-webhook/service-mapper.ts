@@ -10,6 +10,7 @@ const SERVICE_MAP: Record<string, string> = {
   "estatemanner/est-server": "server",
   "estatemanner/est-pricing-server": "pricing",
   "estatemanner/est-mdp-collector": "mdp-collector",
+  "estatemanner/est-mdp-collector-fe": "mdp-collector-fe",
 };
 
 /**
